@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "main": "PROJECT1",
   "scripts": {
-    "start": "node app.js",
+    "start": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
-  
   },
   "author": "",
   "license": "ISC",
@@ -19,10 +18,11 @@
   "homepage": "https://github.com/eych00/PROJECT1#readme",
   "dependencies": {
     "express": "^4.18.2",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "pug": "^3.0.2"
   },
   "uglify": "uglifyjs index.js --output script.js",
-  "devDependencies": {},
   "keywords": [],
   "description": ""
 }
