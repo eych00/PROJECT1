@@ -1,4 +1,4 @@
-const Signup = async () => {
+const signup = async () => {
 
     const formValue = {
         name: document.getElementById('nameId').value,
@@ -9,7 +9,6 @@ const Signup = async () => {
         terms: document.getElementById('termsId').checked,
     }
 
-    // validate user input
     const formDataValidated = validateSignup(formValue)
 
     if(formDataValidated) {

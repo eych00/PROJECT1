@@ -14,8 +14,8 @@
     align-items: center;
 }
 .sub-container{
-    width: 70%;
-    height: 75vh;
+    width: 100%;
+    height: 100vh;
     margin-left: 15%;
     border-radius: 15px;
     background-color: white;
